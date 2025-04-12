@@ -47,11 +47,11 @@ const Header: React.FC = () => {
                         </div>
                     )}
                 </div> */}
-                <div className="relative">
+                {/* <div className="relative">
                     <Link href="/surgeoninfo" className="minigap text-2xl hover:text-yellow-500 font-semibold focus:outline-none">
                         Surgeon Info
                     </Link>
-                </div>
+                </div> */}
 
                 <div className="relative">
                     <Link href="https://xr-museum.vercel.app/" target="_blank" rel="noopener noreferrer" className="minigap text-2xl hover:text-yellow-500 font-semibold focus:outline-none">
@@ -75,11 +75,11 @@ const Header: React.FC = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                 </button>
                 </div> */}
-            <div className="relative">
+            {/* <div className="relative">
                     <Link href="/timeline" className="minigap text-2xl hover:text-yellow-500 font-semibold focus:outline-none">
                         Timeline
                     </Link>
-                </div>
+                </div> */}
                 {/* <div
                     className="relative"
                     onMouseEnter={() => setIsOpen3(true)}
@@ -128,10 +128,10 @@ const Header: React.FC = () => {
                             </div>
                         )}<hr/>
                     </div> */}
-                    <Link href="/surgeoninfo" className="minigap text-xl hover:text-yellow-500 font-semibold" onClick={() => setIsOpen2(false)}>Surgeon Info</Link>
+                    {/* <Link href="/surgeoninfo" className="minigap text-xl hover:text-yellow-500 font-semibold" onClick={() => setIsOpen2(false)}>Surgeon Info</Link> */}
                     <Link href="https://xr-museum.vercel.app/" className="minigap text-xl hover:text-yellow-500 font-semibold" onClick={() => setIsOpen2(false)}>XR Museum</Link>
                     <Link href="/modelar" className="minigap text-xl hover:text-yellow-500 font-semibold" onClick={() => setIsOpen2(false)}>3D Implants</Link>
-                    <Link href="/timeline" className=" minigap text-xl hover:text-yellow-500 font-semibold" onClick={() => setIsOpen2(false)}>Timeline</Link>
+                    {/* <Link href="/timeline" className=" minigap text-xl hover:text-yellow-500 font-semibold" onClick={() => setIsOpen2(false)}>Timeline</Link> */}
                     {/* <div className="relative">
                         <button onClick={toggleMenu3} className="w-full flex items-center justify-between hover:text-yellow-500 font-semibold focus:outline-none">
                             Profile
